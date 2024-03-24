@@ -1,0 +1,74 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+   display: flex;
+   justify-content: start;
+}
+
+.container2 {
+    display: flex;
+    justify-content: end;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+.container6 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-exercicioB{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container-desafio{
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    
+}
